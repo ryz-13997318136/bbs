@@ -1,0 +1,16 @@
+*{margin:0; padding:0;}
+ul,li{list-style:none;}
+body{font-weight:bold; font-family:"Î¢ÈíÑÅºÚ", "ÐÂËÎÌå", serif, arial;}
+#calendar{width:280px; overflow:hidden; border:1px solid #dadada; position:absolute; left:50%; top:50%; margin-left:-141px; margin-top:-141px; border-radius:3px;}
+.c_header{width:100%; height:60px; background-color:#83d8e7; background-image:linear-gradient(to bottom, #abe5ef, #83d8e7); position:relative;}
+.c_header h1{font-size:16px; height:30px; line-height:30px; text-align:center; color:#ffffff;}
+.c_header span{width:20px; height:20px; line-height:20px; color:#ffffff; text-align:center; position:absolute; top:5px; border-radius:50%; background-image:linear-gradient(to bottom, #83d8e7, #abe5ef); cursor:pointer;}
+.c_header span:hover{background:#83d8e7;}
+.c_header span.pre{left:10px;}
+.c_header span.next{right:10px;}
+.c_header ol{position:absolute; left:0; top:30px; overflow:hidden;}
+.c_header ol li{float:left; color:#ffffff; width:40px; height:30px; line-height:30px; text-align:center;}
+.c_body{overflow:hidden;}
+.c_body li{width:38px; height:38px; line-height:38px; font-size:16px; text-align:center; float:left; border:1px solid #ffffff; color:#333;}
+.c_body li.active{border:1px solid #dadada; background-color:#83d8e7; color:#fff;}
+.c_body li.grey{color:#999;}
